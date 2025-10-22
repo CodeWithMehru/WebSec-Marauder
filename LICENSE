@@ -1,0 +1,86 @@
+# WebSec Hardware Guardian — Project Documentation
+
+**Status:** Prototype / Purchased reference device  
+**Owner / Developer:** CodeWithMehru
+**Note:** This repository contains documentation only (no offensive code). See the Safety & Ethics section below.
+
+---
+
+## Project summary
+I purchased an ESP32-based Wi-Fi/Bluetooth detector device and am documenting its advertised capabilities, the hardware I used, and the prototype status. This repo is for educational, defensive, and research purposes only.
+
+**Objective:** Build a safe, defensive wireless monitoring tool that passively detects suspicious signals and logs events for investigation. The project will *not* perform active attacks or unauthorized interception.
+
+---
+
+## Device (as advertised by vendor / source)
+> The device I acquired advertises a long feature list. I am documenting those advertised capabilities below for transparency and review. Important: any features that enable active attacks are **disabled** and **will not be used** in this project.
+
+**Advertised features (vendor description — factual listing only):**
+- Scan APs — scan for nearby Wi-Fi access points (SSID/BSSID/RSSI).
+- Scan Stations — detect Wi-Fi client stations nearby.
+- Deauth Flood — (advertised) send deauthentication packets. **(DISABLED)**  
+- AP Clone Spam — (advertised) clone or spam access points. **(DISABLED)**  
+- Karma — (advertised) respond to probe requests. **(DISABLED)**  
+- Evil Portal — (advertised) fake captive portal. **(DISABLED)**
+
+**Bluetooth (advertised):**
+- Bluetooth Sniffer — list nearby Bluetooth advertisements.
+- Detect Card Skimmers — (advertised) detect bluetooth-enabled skimmers (monitoring only).  
+- Sour Apple, Swiftpair Spam, Samsung BLE Spam — (advertised offensive behaviors). **(DISABLED)**
+
+**Other (advertised):**
+- Packet Monitor — display packet density on a channel (passive visualization).
+- Signal Monitor — display RSSI of devices.
+- GPS support — map events to coordinates (passive).
+- SD Card support — save captured logs (for analysis).
+- Web Update / OTA — update firmware via web interface.
+- CLI — command-line interface for monitoring.
+
+> **Important:** This listing is documented as provided by the vendor. For legal and ethical reasons, the offensive capabilities listed above (sending deauths/jamming/captive portals/credential capture/spam) are explicitly **not used**, and this repository contains no code, instructions, or steps to perform active attacks.
+
+---
+
+## What this repo contains
+- `README.md` — this file.
+- `JOURNAL.md` — development / acquisition / testing log.
+- `hardware/parts-list.txt` — list of parts and prices I purchased.
+- `hardware/wiring-diagram.png` — wiring / photo (upload your image here).
+- `LICENSE` — project license (MIT).
+
+---
+
+## Features I will use (defensive / passive)
+These are the legitimate, allowed features I will document or demonstrate:
+- Passive Wi-Fi scanning (SSID, BSSID, channel, RSSI).
+- Passive station discovery (list client MACs seen in the air — for analytics on owned test networks).
+- Promiscuous-mode monitoring for counting management frames (detection only).
+- Signal strength monitoring and simple visualization (heatmap or display).
+- Passive Bluetooth advertisement scanning (no pairing or injection).
+- GPS-based tagging for mapping where events were observed (for your own devices/networks).
+- Local logging to SD card or HTTP upload to a private server for later analysis.
+- OTA and CLI for device maintenance (firmware distribution only, not for spreading offensive tools).
+
+---
+
+## Safety & Ethics (read before using)
+- **Do not** perform any active attacks (deauths, jamming, fake portals, credential harvesting) unless you have explicit written permission from the network/device owner and local law allows it.  
+- This repository documents the hardware I purchased; it does **not** include or enable offensive code.  
+- If you plan tests, only run them on devices and networks you own. Keep logs and consent records.
+
+---
+
+## BOM (hardware I purchased)
+(See `hardware/parts-list.txt` for the full list with prices and vendor links.)
+
+---
+
+## Next steps (planned)
+1. Use the device only as a passive sensor on my own test network and document results.  
+2. Improve packaging and add safe UI to show passive detections.  
+3. Keep all offensive features disabled; document any vendor-provided offensive features as “disabled” for reviewers.
+
+---
+
+## Contact
+Mehru — https://github.com/CodeWithMehru

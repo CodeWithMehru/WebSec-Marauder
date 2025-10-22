@@ -1,0 +1,18 @@
+# WebSec Hardware Guardian — purchased parts
+
+| Component                                                                        | Quantity | Price (INR approx) | Source                                                                                                                                            
+|----------------------------------------------------------------------------------|----------|--------------------:|---------------------------------------------------------------------------------------------------------------------------------------------------
+| ESP32-DevKitC-32UE Development Board                                             | 1        |             ₹1550   | https://www.amazon.in/gp/product/B087T94ZH9/ref=ox_sc_act_title_7?smid=A3UEDRBHLUOSZB&psc=1
+| WWZMDiB TFT LCD Touch Display Module SPI (2.8" ILI9341, 320×240)                 | 1        |             ₹3568   | https://www.amazon.in/gp/product/B0CCHXX1Z9/ref=ox_sc_act_title_2?smid=A473XUTYXHG1Q&psc=1
+| Hexonix / 2.4G Folded Wi-Fi / Bluetooth Antenna (SMA to IPEX feeder)             | 1        |              ₹279   | https://www.amazon.in/gp/product/B0CY9978Y1/ref=ox_sc_act_title_3?smid=A1SYL30TCF83WC&psc=1
+| GEN-ZZ KCD5-101 Mini Rocker Switch (2-Pin ON-OFF)                                | 1        |              ₹141   | https://www.amazon.in/gp/product/B0FT8LLTSJ/ref=ox_sc_act_title_4?smid=A2279XBVG2D13O&psc=1
+| SHOKITECH TP4056 1A Li-ion Battery Charging Module (with protection, Mini USB)   | 1        |              ₹221   | https://www.amazon.in/gp/product/B0CK76ZQF7/ref=ox_sc_act_title_5?smid=AOG7U64E0DVL2&psc=1
+| LRSA Technology 3.7V 1000mAh LiPo Battery (KP-523450 / equivalent)               | 1        |              ₹999   | https://www.amazon.in/gp/product/B0DG2R82KZ/ref=ox_sc_act_title_6?smid=A16PB6B9JD7J63&psc=1
+| Electronic Spices Breadboard 400 points + 60pcs jumper wires (Male/Female/Male)  | 1 set    |              ₹229   | https://www.amazon.in/gp/product/B0CP25NH8Z/ref=ox_sc_act_title_1?smid=A1UUD7CBBVVXIG&psc=1
+| Marauder Case Back + Front (STL files, no screws)                                | 1        |              ₹520   | https://robu.in/product/3d-printing-service/?attribute_pa_p3d_printer=2.%200.15%20mm%20Medium%20Quality&attribute_pa_p3d_infill=10&attribute_pa_p3d_filename=Marauder%20Case%20Back%20+%20Front%20(No%20Screws).stl&attribute_pa_p3d_material=114.%20ASA%20-%20White&attribute_pa_p3d_model=68f8e623e4b91_642dcb44ad1f9996598639b6b2e8737c.stl&attribute_pa_p3d_unit=mm&attribute_pa_p3d_scale=1%20(13%20%209.7%20%202.5%20cm)
+|                                                                                  |          |                     |
+|                                                                                  |          |      TOTAL ₹7,507   |
+
+# Notes:
+# - Offensive features advertised by vendor are explicitly disabled in this project and will not be used.
+# - Prices are approximate; keep actual receipts for any funding justification.
