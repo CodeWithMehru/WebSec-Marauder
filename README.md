@@ -1,4 +1,4 @@
-# WebSec-Marauder-Guardian (Documentation)
+# WebSec-Marauder-Guardian
 
 **Status:** Prototype — Educational & Defensive Demonstration  
 **Owner / Developer:** CodeWithMehru
