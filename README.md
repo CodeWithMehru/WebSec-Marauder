@@ -1,4 +1,4 @@
-# Marauder — WebSec Hardware Guardian (Documentation)
+# Marauder — WebSec-Marauder (Documentation)
 
 **Status:** Prototype — Educational & Defensive Demonstration  
 **Owner / Developer:** CodeWithMehru
@@ -6,7 +6,7 @@
 
 
 ## Project summary
-**Marauder** is an ESP32-based wireless monitoring reference device documented here as part of the **WebSec Hardware Guardian** project. The goal is educational: to show hackathon students and peers how wireless threats can be *detected* and *defended against* using passive observation and logging.
+**Marauder** is an ESP32-based wireless monitoring reference device documented here as part of the **WebSec-Marauder** project. The goal is educational: to show hackathon students and peers how wireless threats can be *detected* and *defended against* using passive observation and logging.
 
 This repository documents the device’s advertised capabilities for transparency, but the project is strictly **defensive**. Offensive features that actively disrupt or impersonate other devices are **explicitly disabled** and are not used. This repo contains no code or instructions that enable attacks.
 

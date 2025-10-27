@@ -1,4 +1,4 @@
-# Journal — Marauder / WebSec Hardware Guardian
+# Journal  / WebSec-Marauder
 
 Project initialized
 - Created repository and documented project purpose as an educational, defensive tool.
