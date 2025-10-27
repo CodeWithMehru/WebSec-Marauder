@@ -1,4 +1,4 @@
-# Marauder — WebSec-Marauder (Documentation)
+# WebSec-Marauder (Documentation)
 
 **Status:** Prototype — Educational & Defensive Demonstration  
 **Owner / Developer:** CodeWithMehru
@@ -74,7 +74,7 @@ This repo is for documentation and education. If you want to contribute, open an
 
 ![Prototype render (demo image)](hardware/3D Prototype.png)
 
-> **Image disclaimer:** The product/board images in this repo are for documentation and demo purposes only. The ESP32/Marauder images were downloaded as reference/demo images from the web to represent the prototype — they do not imply the physical hardware is currently in-hand. I will update the repository with original photos and receipts when the components are available.
+**Image disclaimer:** The product/board images in this repo are for documentation and demo purposes only. The ESP32/Marauder images were downloaded as reference/demo images from the web to represent the prototype — they do not imply the physical hardware is currently in-hand. I will update the repository with original photos and receipts when the components are available.
 
 ## Contact
 Mehru — https://github.com/CodeWithMehru
