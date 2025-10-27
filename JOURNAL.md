@@ -1,4 +1,4 @@
-# Journal  / WebSec-Marauder
+# Journal  / WebSec-Marauder-Guardian
 
 Project initialized
 - Created repository and documented project purpose as an educational, defensive tool.
