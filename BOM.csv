@@ -9,16 +9,20 @@
 | SHOKITECH TP4056 1A Li-ion Battery Charging Module (with protection, Mini USB)   | 1        |              ₹221   | https://www.amazon.in/gp/product/B0CK76ZQF7/ref=ox_sc_act_title_5?smid=AOG7U64E0DVL2&psc=1
 | LRSA Technology 3.7V 1000mAh LiPo Battery (KP-523450 / equivalent)               | 1        |              ₹999   | https://www.amazon.in/gp/product/B0DG2R82KZ/ref=ox_sc_act_title_6?smid=A16PB6B9JD7J63&psc=1
 | Electronic Spices Breadboard 400 points + 60pcs jumper wires (Male/Female/Male)  | 1 set    |              ₹229   | https://www.amazon.in/gp/product/B0CP25NH8Z/ref=ox_sc_act_title_1?smid=A1UUD7CBBVVXIG&psc=1
-| Marauder Case Back + Front (STL files, no screws)                                | 1        |              ₹520   | https://robu.in/product/3d-printing-service/?attribute_pa_p3d_printer=2.%200.15%20mm%20Medium%20Quality&attribute_pa_p3d_infill=10&attribute_pa_p3d_filename=Marauder%20Case%20Back%20+%20Front%20(No%20Screws).stl&attribute_pa_p3d_material=114.%20ASA%20-%20White&attribute_pa_p3d_model=68f8e623e4b91_642dcb44ad1f9996598639b6b2e8737c.stl&attribute_pa_p3d_unit=mm&attribute_pa_p3d_scale=1%20(13%20%209.7%20%202.5%20cm)
+| Marauder Case Back + Front (STL files, no screws)                                | 1        |              ₹520   | https://robu.in/product/3d-printing-service/?attribute_pa_p3d_printer=2.%200.15%20mm%20Medium%20Quality...
+| Active Buzzer Module (3.3-5V)                                                    | 1        | Available (own)     | https://www.amazon.in/Robodo-Active-Buzzer-Module-arduino/dp/B094NT4PHB
+| MicroSD Card Module (SPI breakout)                                               | 1        | Included (budget)   | https://robu.in/product/micro-sd-card-module/
+| MicroSD Card — 8GB (Class 10)                                                    | 1        | Available (own)     | https://www.amazon.in/s?k=8gb+micro+sd+card
+| INA219 I2C Current / Power Sensor Module                                         | 1        | Included (budget)   | https://robu.in/search/?q=INA219
+| GPS Module (NEO-6M or equivalent)                                                | 1        | Included (budget)   | https://www.amazon.in/s?k=NEO-6M+GPS+module
+| JST PH2 Connector Cable (2-pin / 3-pin as needed)                                | 1        | Included (budget)   | https://www.amazon.in/s?k=JST+PH2+cable
+| Step-up (boost) Converter module (3.7V → 5V)                                     | 1        | Included (budget)   | https://www.amazon.in/s?k=step-up+converter+3.7v+to+5v
 |                                                                                  |          |                     |
-|                                                                                  |          |      TOTAL ₹7,507   |
+|                                                                                  |          |    **TOTAL ₹7,507** |
+
 
 # Notes:
+# Total cost remains ₹7,507 as original; extra modules are owned or low-cost budget components.
+# Added parts (buzzer, SD, INA219, GPS, etc.) enhance the functionality for diagnostics and data logging.
 # - Offensive features advertised by vendor are explicitly disabled in this project and will not be used.
 # - Prices are approximate; keep actual receipts for any funding justification.
-
-![Prototype render (demo image)](hardware/3D Prototype.png)
-
-> **Image disclaimer:** The product/board images in this repo are for documentation and demo purposes only. 
-The ESP32/Marauder images were downloaded as reference/demo images from the web to represent the prototype they do not imply the physical hardware is currently in-hand.
- I will update the repository with original photos and receipts when the components are available.

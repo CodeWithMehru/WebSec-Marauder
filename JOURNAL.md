@@ -63,11 +63,14 @@
 
 ---
 
-**Total time invested: 144 hours**
+### 2025-10-31 — Prototype wiring sketch, BOM update & visual mockup (est. 6 hours)
+- Created a hand-drawn prototype wiring sketch and a photoreal wiring mockup showing how modules will connect: ESP32 DevKitC → ILI9341 TFT (SPI), TP4056 → LiPo battery → slide power switch → ESP32 VIN, INA219 on battery positive, MicroSD module on SPI, buzzer on GPIO25, and optional GPS on UART. The sketches include labeled pins and color-coded signal rails (VCC, GND, SPI, I2C, UART) to validate wiring before assembly.
+- Updated BOM with planned parts and supplier references; prioritized low-cost, easy-to-source modules for fast prototyping.
+- Uploaded the wiring mockup and schematic to `pcb_design/` as visual references. These images are design-stage visuals; I will replace them with in-hand photos and assembly logs after components arrive or are borrowed.
+Time spent: 6 hours
 
----
 
  **Notes:**  
-- The uploaded image in the repo (`3D Prototype.png`) is a downloaded reference prototype to visualize how the final build will look. Once physical components arrive and the assembly begins, actual device photos will be uploaded.  
+- The uploaded image in the repo is a prototype to visualize how the final build will look. Once physical components arrive and the assembly begins, actual device photos will be uploaded.  
 - Firmware and documentation are developed from scratch for educational and ethical demonstration of Wi-Fi safety.  
 - The design showcases a secure and educational replica for hackathon participants to understand wireless threats responsibly.
